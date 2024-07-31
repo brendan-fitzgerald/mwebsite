@@ -1,0 +1,26 @@
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.section-p {
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Lato';
+  font-weight: 800 !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--bs-blue);
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(1,1,1,0.25);
+}
+
+#gallery img {
+  margin: 2px;
+}
+
