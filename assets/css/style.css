@@ -24,3 +24,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 2px;
 }
 
+.nav-link .bi-linkedin {
+  font-size: 1.25rem;
+}
+
+header {
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  background: linear-gradient(to bottom, transparent, rgb(247, 233, 219));
+  pointer-events: none;
+}
+
